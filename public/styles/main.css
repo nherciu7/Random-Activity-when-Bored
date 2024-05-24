@@ -1,0 +1,133 @@
+/* /styles/main.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1A4D2E /* Gradient background */
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #E8DFCA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-select {
+    background-color: #F5EFE6;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-submit {
+    padding: 10px;
+    background-color: #4F6F52;
+    color: #fff;
+    border: #4F6F52;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-submit:hover {
+    background-color: #F5EFE6;
+    color: #1A4D2E;
+    border: 2px solid #4F6F52;
+    
+  }
+  
+  /* Card styles */
+  .cards {
+    margin-top: 20px;
+  }
+  
+  .card-item {
+    background: #F5EFE6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .card-activity {
+    margin: 0;
+    font-size: 18px;
+    
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .card-type,
+  .card-participants {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .tag-error {
+    color: red;
+    text-align: center;
+  }
+ 
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+ 
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  .footer {
+    color: #F5EFE6;
+    font-size: 14px;
+    text-align: center; 
+    width: 100%;
+    padding: 10px 0; 
+    background-color: #1A4D2E; 
+    
+}
+
+
+.footer {
+    margin-top: auto;
+}
